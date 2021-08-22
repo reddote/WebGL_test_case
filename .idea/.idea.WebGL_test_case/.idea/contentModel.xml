@@ -7,6 +7,9 @@
     <e p="C:\Users\alper\Desktop\WebGL_test_case" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Morgue Room PBR" t="Include">
+          <e p="info_morgueroom.txt" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="InputHandler.cs" t="Include" />
           <e p="PlayerCommandPattern" t="Include">

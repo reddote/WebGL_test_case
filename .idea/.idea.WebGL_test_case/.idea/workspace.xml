@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a67da8-ab9f-4507-9961-5f9fba37fb7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/Command.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +40,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CommandCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Command.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/Command.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStatePattern/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/Command.cs" />
       </list>
     </option>
   </component>
@@ -92,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629626233239</updated>
-      <workItem from="1629626237837" duration="4653000" />
+      <workItem from="1629626237837" duration="14654000" />
     </task>
     <servers />
   </component>

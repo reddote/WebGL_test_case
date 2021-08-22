@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
+using PlayerStatePattern;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
@@ -11,17 +12,18 @@ public class InputHandler : MonoBehaviour{
     [SerializeField] private KeyCode left = KeyCode.A;
     [SerializeField] private KeyCode right = KeyCode.D;
     [SerializeField] private KeyCode shift = KeyCode.LeftShift;
+    [SerializeField] private KeyCode space = KeyCode.Space;
 
     [SerializeField] private Transform playerTransform;
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private CharacterController playerCharacterController;
+    [SerializeField] private PlayerController playerController;
 
     //move pos x and z
     private float xMove, zMove;
 
     //all commands we use for input
     private Command moveForward, moveBackward, moveLeft, moveRight;
-
     private CommandCamera rotateCamera, rotatePlayerBody;
     //end for commads
 
@@ -49,6 +51,7 @@ public class InputHandler : MonoBehaviour{
     private void Update(){
         HandleInput();
         CameraInputCalculator();
+        playerController.PlayerGravityController(playerCharacterController);
     }
 
     private void HandleInput(){
@@ -60,28 +63,60 @@ public class InputHandler : MonoBehaviour{
 
         if (Input.GetKey(forward)){
             zMove = 1;
+            PlayerWalkingAndRunningAnimationStates();
             moveForward.Execute(playerCharacterController, MoveSomethingNice(), isPlayerRunning);
+        } else{
+            zMove = 0;
         }
 
         if (Input.GetKey(backward)){
             zMove = -1;
+            PlayerWalkingAndRunningAnimationStates();
             moveBackward.Execute(playerCharacterController, MoveSomethingNice(), isPlayerRunning);
+        } else{
+            zMove = 0;
         }
 
         if (Input.GetKey(left)){
             xMove = -1;
+            PlayerWalkingAndRunningAnimationStates();
             moveLeft.Execute(playerCharacterController, MoveSomethingNice(), isPlayerRunning);
+        } else{
+            xMove = 0;
         }
 
         if (Input.GetKey(right)){
             xMove = 1;
+            PlayerWalkingAndRunningAnimationStates();
             moveRight.Execute(playerCharacterController, MoveSomethingNice(), isPlayerRunning);
+        } else{
+            xMove = 0;
+        }
+
+        if (!Input.GetKey(forward) &&
+            !Input.GetKey(backward) &&
+            !Input.GetKey(left) &&
+            !Input.GetKey(right) &&
+            !Input.GetKey(space)){
+            playerController.playerState = PlayerStates.OnFeet;
+        }
+
+        if (Input.GetKeyDown(space)){
+            playerController.playerState = PlayerStates.Jumping;
         }
     }
 
     private Vector3 MoveSomethingNice(){
         _move = transform.right * xMove + transform.forward * zMove;
         return _move;
+    }
+
+    private void PlayerWalkingAndRunningAnimationStates(){
+        if (isPlayerRunning){
+            playerController.playerState = PlayerStates.Running;
+        } else{
+            playerController.playerState = PlayerStates.Walking;
+        }
     }
 
     private void CameraInputCalculator(){

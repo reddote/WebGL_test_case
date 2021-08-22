@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Command{
     protected float playerWalkSpeed = 5f;
-    protected float playerRunningSpeed = 7f;
+    protected float playerRunningSpeed = 10f;
 
     //Move command
     public abstract void Execute(CharacterController gobject, Vector3 move, bool isRunning);
