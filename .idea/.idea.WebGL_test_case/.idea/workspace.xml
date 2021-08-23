@@ -20,45 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a67da8-ab9f-4507-9961-5f9fba37fb7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_sit_on_chair.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_sit_on_chair.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_standup_chair.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_standup_chair.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_emotion_laugh_on_chair.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_emotion_laugh_on_chair.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_handshake.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_handshake.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_idle_pant.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_idle_pant.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_move_run_sprint.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_move_run_sprint.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_talk_sit.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_talk_sit.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player/female_act_sit_on_chair.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player/female_act_sit_on_chair.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player/female_handshake.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player/female_handshake.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player/female_idle_pant.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player/female_idle_pant.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player/female_move_run_sprint.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Player/female_move_run_sprint.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animators/NpcAnimator.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animators/NpcAnimator.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/female_act_sit_on_chair.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/female_act_sit_on_chair.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/female_handshake.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/female_handshake.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/female_idle_pant.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/female_idle_pant.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/female_move_run_sprint.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/female_move_run_sprint.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Morgue Room PBR/morgue scene/morgue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Morgue Room PBR/morgue scene/morgue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +41,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CommandCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Command.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStatePattern/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/Command.cs" />
@@ -86,7 +49,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/LightOti.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/DoorOti.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" />
       </list>
     </option>
   </component>
@@ -139,7 +104,7 @@
       <updated>1629626233239</updated>
       <workItem from="1629626237837" duration="14960000" />
       <workItem from="1629702600136" duration="3729000" />
-      <workItem from="1629723291586" duration="1716000" />
+      <workItem from="1629723291586" duration="3377000" />
     </task>
     <servers />
   </component>

@@ -12,8 +12,6 @@ namespace InteractablesObjects{
         Door,
         Panel,
         Bin,
-    
-    
     }
 
     public class Interactables : Observer
@@ -29,8 +27,7 @@ namespace InteractablesObjects{
         public override void OnNotify(GameObject value, ObjectType objectType){
             if (objectType == ObjectType.Bin){
                 //TODO open the UI canvas
-            }else if (objectType == ObjectType.AnimationCharacter){
-                //TODO change animation character
+            }else if (objectType == ObjectType.AnimationCharacter){//every interaction animation will change
                 var _temp = value.GetComponent<CharacterOti>();
                 _temp.ChangeTheAnimationForNpc();
             }else if (objectType == ObjectType.Cabinet){
@@ -43,8 +40,10 @@ namespace InteractablesObjects{
                     _temp.isEnable = true;
                 }
                 _temp.OpenAndCloseLight();
-            }else if (objectType == ObjectType.Panel){
+            }else if (objectType == ObjectType.Panel){//panel will turn upside down
                 //TODO Panel rotation will change
+                var _temp = value.GetComponent<PanelOti>();
+                _temp.TurnUpsideDownThePanel();
             }else if (objectType == ObjectType.Door){//game will load active scene
                 var _temp = value.GetComponent<DoorOti>();
                 _temp.RestartGame();

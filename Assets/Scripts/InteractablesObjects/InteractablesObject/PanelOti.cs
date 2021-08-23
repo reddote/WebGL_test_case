@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PanelOti : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+namespace InteractablesObjects.InteractablesObject{
+    public class PanelOti : ObjectsToInteract{
+        private Transform panelTransform;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void Start(){
+            panelTransform = GetComponent<Transform>();
+        }
+
+        public void TurnUpsideDownThePanel(){
+            var _rotation = panelTransform.rotation;
+            panelTransform.rotation = Quaternion.Euler(new Vector3(
+                _rotation.x,
+                90f,
+                180f));
+        }
     }
 }
