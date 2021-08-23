@@ -12,6 +12,19 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="InputHandler.cs" t="Include" />
+          <e p="InteractablesObjects" t="Include">
+            <e p="Interactables.cs" t="Include" />
+            <e p="InteractablesObject" t="Include">
+              <e p="BinOti.cs" t="Include" />
+              <e p="CabinetOti.cs" t="Include" />
+              <e p="CharacterOti.cs" t="Include" />
+              <e p="DoorOti.cs" t="Include" />
+              <e p="LightOti.cs" t="Include" />
+              <e p="PanelOti.cs" t="Include" />
+            </e>
+            <e p="ObjectsToInteract.cs" t="Include" />
+            <e p="Observer.cs" t="Include" />
+          </e>
           <e p="PlayerCommandPattern" t="Include">
             <e p="Command.cs" t="Include" />
             <e p="CommandCamera.cs" t="Include" />
