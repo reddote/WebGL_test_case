@@ -31,6 +31,8 @@ namespace InteractablesObjects{
                 //TODO open the UI canvas
             }else if (objectType == ObjectType.AnimationCharacter){
                 //TODO change animation character
+                var _temp = value.GetComponent<CharacterOti>();
+                _temp.ChangeTheAnimationForNpc();
             }else if (objectType == ObjectType.Cabinet){
                 //TODO Cabinet door should close and open
             }else if (objectType == ObjectType.Light){//light will open and close when it calls
