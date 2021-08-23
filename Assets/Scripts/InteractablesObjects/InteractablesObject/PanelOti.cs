@@ -5,7 +5,7 @@ namespace InteractablesObjects.InteractablesObject{
         private Transform panelTransform;
 
         private void Start(){
-            panelTransform = GetComponent<Transform>();
+            panelTransform = transform;
         }
 
         public void TurnUpsideDownThePanel(){

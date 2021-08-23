@@ -30,8 +30,10 @@ namespace InteractablesObjects{
             }else if (objectType == ObjectType.AnimationCharacter){//every interaction animation will change
                 var _temp = value.GetComponent<CharacterOti>();
                 _temp.ChangeTheAnimationForNpc();
-            }else if (objectType == ObjectType.Cabinet){
+            }else if (objectType == ObjectType.Cabinet){//cabinet door will open and close
                 //TODO Cabinet door should close and open
+                var _temp = value.GetComponent<CabinetOti>();
+                _temp.StatusChanger();
             }else if (objectType == ObjectType.Light){//light will open and close when it calls
                 var _temp = value.GetComponent<LightOti>();
                 if (_temp.isEnable){
