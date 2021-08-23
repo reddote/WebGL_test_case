@@ -12,6 +12,7 @@ namespace InteractablesObjects{
         Door,
         Panel,
         Bin,
+        Grab
     }
 
     public class Interactables : Observer
@@ -27,6 +28,8 @@ namespace InteractablesObjects{
         public override void OnNotify(GameObject value, ObjectType objectType){
             if (objectType == ObjectType.Bin){
                 //TODO open the UI canvas
+                var _temp = value.GetComponent<BinOti>();
+                _temp.StartMenuCanvasGroupEnabler();
             }else if (objectType == ObjectType.AnimationCharacter){//every interaction animation will change
                 var _temp = value.GetComponent<CharacterOti>();
                 _temp.ChangeTheAnimationForNpc();
@@ -49,6 +52,8 @@ namespace InteractablesObjects{
             }else if (objectType == ObjectType.Door){//game will load active scene
                 var _temp = value.GetComponent<DoorOti>();
                 _temp.RestartGame();
+            }else if (objectType == ObjectType.Grab){
+                //TODO grab objects interact will be add
             }
         }
     }
