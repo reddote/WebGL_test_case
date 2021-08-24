@@ -13,10 +13,6 @@ namespace InteractablesObjects{
         public static Spawner current;
         [SerializeField] private Transform spawnPoint1;
         [SerializeField] private Transform spawnPoint2;
-        //its calculate time for playing minigame
-        [SerializeField] private TextMeshProUGUI timer;
-        //how many objects left for the finish game
-        [SerializeField] private TextMeshProUGUI count;
         
         [SerializeField] private List<Transform> cubes = new List<Transform>();
         //this will control the when game is finished
@@ -24,6 +20,7 @@ namespace InteractablesObjects{
         
         //events
         public event Action isGameFinished;
+        public bool haveObjectinHands = false;
 
         public void GameFinishController(){
             isGameFinished?.Invoke();
@@ -45,7 +42,7 @@ namespace InteractablesObjects{
                 GameFinishController();
                 ReturnObjectPool();
                 Debug.Log("countdown");
-            }
+            } 
         }
 
         public void ObjectSpawner(){
@@ -65,6 +62,10 @@ namespace InteractablesObjects{
 
         public void RemoveObjectsWhenDroppedBin(Transform grabOti){
             controlList.RemoveAt(controlList.IndexOf(grabOti));
+        }
+
+        public int DroppedObjectCount(){//count objects in bin
+            return cubes.Count - controlList.Count;
         }
 
         private Vector3 LocationCalculator(){

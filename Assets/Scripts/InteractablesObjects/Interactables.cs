@@ -56,7 +56,9 @@ namespace InteractablesObjects{
                 _temp.RestartGame();
             }else if (objectType == ObjectType.Grab){
                 var _temp = value.GetComponent<GrabOti>();
-                _temp.ObjectIsGrabbed();
+                if (!_temp.HaveObjectsInMyHand()){
+                    _temp.ObjectIsGrabbed();
+                }
             }
         }
     }

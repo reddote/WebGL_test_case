@@ -1,11 +1,20 @@
 using System;
+using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace InteractablesObjects.InteractablesObject{
     public class BinOti : ObjectsToInteract{
         [SerializeField] private CanvasGroup miniGameStartMenu;
         [SerializeField] private CanvasGroup scoreBoardUI;
+        //its calculate time for playing minigame
+        [SerializeField] private TextMeshProUGUI timerText;
+        private double timeToPlay = 0;
+        //how many objects left for the finish game
+        [SerializeField] private TextMeshProUGUI countText;
+        
         [SerializeField] private Transform player;
         [SerializeField] private Button startButton;
         [SerializeField] private Button exitButton;
@@ -26,14 +35,32 @@ namespace InteractablesObjects.InteractablesObject{
             if (isCanvasGroupOpen){
                 startMenuTransform.LookAt(player);
             }
+
+            if (isGameStarted){
+                TimerCalculate();
+            } else{
+                timeToPlay = 0;
+            }
         }
 
         private void IsGameStarted(){
             isGameStarted = true;
+            scoreBoardUI.alpha = 1;
         }
 
         private void IsGameFinished(){
             isGameStarted = false;
+            StartCoroutine(DelayForClosingUI());
+        }
+        
+        private void TimerCalculate(){
+            timeToPlay += Time.deltaTime;
+            string _s = timeToPlay.ToString("N2");
+            timerText.text = "" + _s;;
+        }
+
+        public void CountTextUpdater(int dropCount){
+            countText.text = dropCount + "/5";
         }
 
         public void StartMenuCanvasGroupEnabler(){
@@ -48,6 +75,11 @@ namespace InteractablesObjects.InteractablesObject{
                 miniGameStartMenu.blocksRaycasts = false;
                 isCanvasGroupOpen = false;
             }
+        }
+
+        IEnumerator DelayForClosingUI(){
+            yield return new WaitForSeconds(2f);
+            scoreBoardUI.alpha = 0;
         }
 
     }
