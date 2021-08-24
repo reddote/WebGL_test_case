@@ -29,7 +29,9 @@ namespace InteractablesObjects{
             if (objectType == ObjectType.Bin){
                 //TODO open the UI canvas
                 var _temp = value.GetComponent<BinOti>();
-                _temp.StartMenuCanvasGroupEnabler();
+                if (!_temp.isGameStarted){
+                    _temp.StartMenuCanvasGroupEnabler();
+                }
             }else if (objectType == ObjectType.AnimationCharacter){//every interaction animation will change
                 var _temp = value.GetComponent<CharacterOti>();
                 _temp.ChangeTheAnimationForNpc();
@@ -53,7 +55,8 @@ namespace InteractablesObjects{
                 var _temp = value.GetComponent<DoorOti>();
                 _temp.RestartGame();
             }else if (objectType == ObjectType.Grab){
-                //TODO grab objects interact will be add
+                var _temp = value.GetComponent<GrabOti>();
+                _temp.ObjectIsGrabbed();
             }
         }
     }

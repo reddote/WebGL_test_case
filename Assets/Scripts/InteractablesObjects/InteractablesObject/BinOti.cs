@@ -9,6 +9,7 @@ namespace InteractablesObjects.InteractablesObject{
         [SerializeField] private Transform player;
         [SerializeField] private Button startButton;
         [SerializeField] private Button exitButton;
+        public bool isGameStarted = false;
         
         private RectTransform startMenuTransform;
         private bool isCanvasGroupOpen = false;
@@ -16,12 +17,23 @@ namespace InteractablesObjects.InteractablesObject{
         private void Start(){
             startMenuTransform = miniGameStartMenu.GetComponent<RectTransform>();
             exitButton.onClick.AddListener(StartMenuCanvasGroupEnabler);
+            startButton.onClick.AddListener(IsGameStarted);
+            startButton.onClick.AddListener(StartMenuCanvasGroupEnabler);
+            Spawner.current.isGameFinished += IsGameFinished;
         }
 
         private void Update(){
             if (isCanvasGroupOpen){
                 startMenuTransform.LookAt(player);
             }
+        }
+
+        private void IsGameStarted(){
+            isGameStarted = true;
+        }
+
+        private void IsGameFinished(){
+            isGameStarted = false;
         }
 
         public void StartMenuCanvasGroupEnabler(){
