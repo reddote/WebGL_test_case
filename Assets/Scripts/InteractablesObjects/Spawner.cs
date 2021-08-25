@@ -61,7 +61,11 @@ namespace InteractablesObjects{
         }
 
         public void RemoveObjectsWhenDroppedBin(Transform grabOti){
-            controlList.RemoveAt(controlList.IndexOf(grabOti));
+            if (controlList.Contains(grabOti)){
+                controlList.RemoveAt(controlList.IndexOf(grabOti));
+            } else{
+                Debug.Log("you put the same object");
+            }
         }
 
         public int DroppedObjectCount(){//count objects in bin

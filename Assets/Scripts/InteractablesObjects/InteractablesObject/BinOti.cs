@@ -9,9 +9,10 @@ namespace InteractablesObjects.InteractablesObject{
     public class BinOti : ObjectsToInteract{
         [SerializeField] private CanvasGroup miniGameStartMenu;
         [SerializeField] private CanvasGroup scoreBoardUI;
+        [SerializeField] private TextMeshProUGUI[] leadboardText;
         //its calculate time for playing minigame
         [SerializeField] private TextMeshProUGUI timerText;
-        private double timeToPlay = 0;
+        private float timeToPlay = 0;
         //how many objects left for the finish game
         [SerializeField] private TextMeshProUGUI countText;
         
@@ -38,8 +39,6 @@ namespace InteractablesObjects.InteractablesObject{
 
             if (isGameStarted){
                 TimerCalculate();
-            } else{
-                timeToPlay = 0;
             }
         }
 
@@ -49,8 +48,10 @@ namespace InteractablesObjects.InteractablesObject{
         }
 
         private void IsGameFinished(){
+            PlayFabManager.current.SendLeaderBoard(-timeToPlay);
             isGameStarted = false;
             StartCoroutine(DelayForClosingUI());
+            timeToPlay = 0;
         }
         
         private void TimerCalculate(){
@@ -75,11 +76,20 @@ namespace InteractablesObjects.InteractablesObject{
                 miniGameStartMenu.blocksRaycasts = false;
                 isCanvasGroupOpen = false;
             }
+            SetLeaderBoardList();
         }
 
         IEnumerator DelayForClosingUI(){
             yield return new WaitForSeconds(2f);
             scoreBoardUI.alpha = 0;
+        }
+
+        private void SetLeaderBoardList(){
+            var _manager = PlayFabManager.current;
+            _manager.isGetLeader = false;
+            for (int i = 0; i < _manager.stringLeaderBoard.Count; i++){
+                leadboardText[i].text = _manager.stringLeaderBoard[i];
+            }
         }
 
     }
