@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class CommandCamera{
-    public float mouseSensivity = 300f;
+    public float mouseSensivity = 200f;
 
     //if we wont clamp the camera movement camera will eventually turn upside down
     protected float minumumValueForCamera = -90f;

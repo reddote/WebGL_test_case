@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace InteractablesObjects.InteractablesObject{
 
-    public enum AnimationNames{
+    public enum TestStatus{
         Idle = 0,
         SitOnChair = 1,
         StandUpChair = 2,
@@ -15,30 +15,23 @@ namespace InteractablesObjects.InteractablesObject{
         TalkSit = 6
     }
     
-    public class CharacterOti : ObjectsToInteract{
+    public class Test : ObjectsToInteract{
         [SerializeField] private Animator npcAnimator;
-        //private Dictionary<int, string> animationNames = new Dictionary<int, string>();
         private int animationNumber = 0;
-
+        
         private void Start(){
             npcAnimator = GetComponent<Animator>();
-            JavaScriptHook.current.ChangeAnimationTextSet(GetAnimationName());
         }
 
-        public void ChangeTheAnimationForNpc(){
+        public void TestFunc(){
+            Debug.LogError("Teste girdi");
             animationNumber++;
             if (animationNumber > 6){
                 animationNumber = 0;
             }
             npcAnimator.SetInteger("Change", animationNumber);
-            JavaScriptHook.current.ChangeAnimationTextSet(GetAnimationName());
+            Debug.LogError("Testde");
         }
 
-        private string GetAnimationName(){
-            var _displayNameOfAnimation = (AnimationNames) animationNumber;
-            string _animationName = _displayNameOfAnimation.ToString();
-            return _animationName;
-        }
-        
     }
 }

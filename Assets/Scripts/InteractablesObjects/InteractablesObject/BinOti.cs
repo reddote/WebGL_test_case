@@ -58,10 +58,13 @@ namespace InteractablesObjects.InteractablesObject{
             timeToPlay += Time.deltaTime;
             string _s = timeToPlay.ToString("N2");
             timerText.text = "" + _s;;
+            JavaScriptHook.current.ChangeUITimerTextSet(_s);
         }
 
         public void CountTextUpdater(int dropCount){
-            countText.text = dropCount + "/5";
+            string _temp = dropCount + "/5";
+            countText.text = _temp;
+            JavaScriptHook.current.ChangeUICountTextSet(_temp);
         }
 
         public void StartMenuCanvasGroupEnabler(){
@@ -91,6 +94,7 @@ namespace InteractablesObjects.InteractablesObject{
                 leadboardText[i].text = _manager.stringLeaderBoard[i];
             }
         }
+        
 
     }
 }

@@ -20,400 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a67da8-ab9f-4507-9961-5f9fba37fb7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditorExtensions.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/ProgressBar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/ProgressBar.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/SubMenuComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/SubMenuComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleDataEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleDataEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleDataViewer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleDataViewer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleInternalDataEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleInternalDataEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleInternalDataViewer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Components/TitleInternalDataViewer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorAuthenticate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorAuthenticate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHeader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHeader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHelpMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorHelpMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorPackages.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorPackages.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSDKTools.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSDKTools.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorToolsMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorToolsMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/ISerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/ISerializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorApi.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorApi.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorHttp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorHttp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/PlayFabEditorModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/SimpleJson.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/SimpleJson.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/EditorCoroutine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/EditorCoroutine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorDataService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorDataService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorUtils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorUtils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorVersion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorVersion.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabGuiFieldHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabGuiFieldHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts/Avalon Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts/Avalon Bold.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts/Avalon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Fonts/Avalon.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Black.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Clear.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_base.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_dk1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_dk1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_lt1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_lt1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_lt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Gray_lt2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Orange.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/Square.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/White.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/White.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark_off.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/checkmark_on.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dashboardIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dashboardIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dashboardIconHover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dashboardIconHover.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dn_colored.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dn_colored.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dn_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/dn_gray.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/pfFullLogo_O.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/pfFullLogo_O.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/pfFullLogo_W.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/pfFullLogo_W.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/playfablogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/playfablogo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/r_colored.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/r_colored.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/r_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/r_gray.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/red.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/Images/yellow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/PlayFabStyles.guiskin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/UI/PlayFabStyles.guiskin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/PlayFabSharedSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/PlayFabSharedSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayFabManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Demo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Demo/Scene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Demo/Scene/Demo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Demo/Scene/Demo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Demo/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Demo/Scripts/GameController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Demo/Scripts/GameController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/How To Use.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/How To Use.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin/PlayFabAdminAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin/PlayFabAdminAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin/PlayFabAdminInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin/PlayFabAdminInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin/PlayFabAdminModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin/PlayFabAdminModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Admin/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication/PlayFabAuthenticationAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication/PlayFabAuthenticationAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication/PlayFabAuthenticationInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication/PlayFabAuthenticationInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication/PlayFabAuthenticationModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication/PlayFabAuthenticationModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Authentication/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabClientAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabClientAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabClientInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabClientInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabClientModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabClientModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabDeviceUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabDeviceUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Client/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript/PlayFabCloudScriptAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript/PlayFabCloudScriptAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript/PlayFabCloudScriptInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript/PlayFabCloudScriptInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript/PlayFabCloudScriptModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript/PlayFabCloudScriptModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/CloudScript/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data/PlayFabDataAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data/PlayFabDataAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data/PlayFabDataInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data/PlayFabDataInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data/PlayFabDataModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data/PlayFabDataModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Data/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Entity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Entity/ScreenTimeTracker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Entity/ScreenTimeTracker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events/PlayFabEventsAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events/PlayFabEventsAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events/PlayFabEventsInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events/PlayFabEventsInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events/PlayFabEventsModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Events/PlayFabEventsModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation/PlayFabExperimentationAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation/PlayFabExperimentationAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation/PlayFabExperimentationInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation/PlayFabExperimentationInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation/PlayFabExperimentationModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Experimentation/PlayFabExperimentationModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups/PlayFabGroupsAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups/PlayFabGroupsAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups/PlayFabGroupsInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups/PlayFabGroupsInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups/PlayFabGroupsModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Groups/PlayFabGroupsModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights/PlayFabInsightsAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights/PlayFabInsightsAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights/PlayFabInsightsInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights/PlayFabInsightsInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights/PlayFabInsightsModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Insights/PlayFabInsightsModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/LICENSE.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization/PlayFabLocalizationAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization/PlayFabLocalizationAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization/PlayFabLocalizationInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization/PlayFabLocalizationInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization/PlayFabLocalizationModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Localization/PlayFabLocalizationModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker/PlayFabMatchmakerAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker/PlayFabMatchmakerAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker/PlayFabMatchmakerInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker/PlayFabMatchmakerInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker/PlayFabMatchmakerModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Matchmaker/PlayFabMatchmakerModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer/PlayFabMultiplayerAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer/PlayFabMultiplayerAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer/PlayFabMultiplayerInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer/PlayFabMultiplayerInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer/PlayFabMultiplayerModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Multiplayer/PlayFabMultiplayerModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/PlayFab.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/PlayFab.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles/PlayFabProfilesAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles/PlayFabProfilesAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles/PlayFabProfilesInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles/PlayFabProfilesInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles/PlayFabProfilesModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Profiles/PlayFabProfilesModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server/PlayFabServerAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server/PlayFabServerAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server/PlayFabServerInstanceAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server/PlayFabServerInstanceAPI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server/PlayFabServerModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Server/PlayFabServerModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/MakeSharedSettingsObj.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/MakeSharedSettingsObj.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/PlayFabHelp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/PlayFabHelp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/PlayFabSdkEditor.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/PlayFablogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/PlayFablogo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/ISerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/ISerializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/Log.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/Log.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabErrors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabErrors.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/IPlayFabHttp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/IPlayFabHttp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabUnityHttp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWWW.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWWW.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/SimpleJson.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/SimpleJson.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/SingletonMonoBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/SingletonMonoBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/Util.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/Util.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/wsaReflectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Internal/wsaReflectionExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/CRC32.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/CRC32.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/Deflate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/Deflate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/DeflateStream.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/DeflateStream.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/GZipStream.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/GZipStream.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/InfTree.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/InfTree.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/Inflate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/Inflate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ParallelDeflateOutputStream.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ParallelDeflateOutputStream.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZTree.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZTree.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/Zlib.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/Zlib.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZlibBaseStream.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZlibBaseStream.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZlibCodec.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZlibCodec.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZlibConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZlibConstants.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZlibStream.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Ionic.Zlib/ZlibStream.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Models/PlayFabSharedSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Models/PlayFabSharedSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Models/SharedModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Models/SharedModels.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/IPlayFabPlugin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/IPlayFabPlugin.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/ISerializerPlugin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/ISerializerPlugin.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/ITransportPlugin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/ITransportPlugin.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabApiSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabApiSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabAuthenticationContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabAuthenticationContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabDataGatherer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabDataGatherer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabLogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabLogger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PlayFabSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PluginContract.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PluginContract.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PluginContractKey.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PluginContractKey.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PluginManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/PluginManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/Resources/PlayFabSharedSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Public/Resources/PlayFabSharedSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/link.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/link.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Prefabs/AccountController.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Prefabs/AccountController.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/README.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/README.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Ressources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Ressources/AccountData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Ressources/AccountData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Scripts/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Scripts/AccountController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Scripts/AccountWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Scripts/AccountWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Third-Party Notices.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Account with Database/Third-Party Notices.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HtmlHook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/Test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/Test.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/JavaScriptHook.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_sit_on_chair.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_sit_on_chair.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_standup_chair.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_standup_chair.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_emotion_laugh_on_chair.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_emotion_laugh_on_chair.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_talk_sit.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_talk_sit.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Morgue Room PBR/morgue scene/morgue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Morgue Room PBR/morgue scene/morgue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/BridgeConnection.jslib" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/BridgeConnection.jslib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/BinOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/BinOti.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CabinetOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CabinetOti.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/LightOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/LightOti.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,7 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HtmlHook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayFabManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JavaScriptHook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Observer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/ObjectsToInteract.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/GrabOti.cs" root0="FORCE_HIGHLIGHTING" />
@@ -439,22 +66,25 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/Command.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/ObjectsToInteract.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/LightOti.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/DoorOti.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CabinetOti.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/UnityEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/GrapObjectsEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/GrabOti.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" />
         <option value="$PROJECT_DIR$/Assets/Simple Account with Database/PlayFabSDK/Shared/Editor/MakeSharedSettingsObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Simple Account with Database/Scripts/AccountController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Simple Account with Database/Scripts/AccountWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/BinOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JavaScriptHook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayFabManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HtmlHook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/LightOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CabinetOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/DoorOti.cs" />
       </list>
     </option>
   </component>
@@ -516,7 +146,7 @@
       <workItem from="1629873605370" duration="1787000" />
       <workItem from="1629882884368" duration="4921000" />
       <workItem from="1629895485188" duration="684000" />
-      <workItem from="1629896454996" duration="1565000" />
+      <workItem from="1629896454996" duration="17249000" />
     </task>
     <servers />
   </component>

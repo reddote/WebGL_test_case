@@ -41,16 +41,11 @@ namespace InteractablesObjects{
                 _temp.StatusChanger();
             }else if (objectType == ObjectType.Light){//light will open and close when it calls
                 var _temp = value.GetComponent<LightOti>();
-                if (_temp.isEnable){
-                    _temp.isEnable = false;
-                } else{
-                    _temp.isEnable = true;
-                }
                 _temp.OpenAndCloseLight();
             }else if (objectType == ObjectType.Panel){//panel will turn upside down
                 //TODO Panel rotation will change
                 var _temp = value.GetComponent<PanelOti>();
-                _temp.TurnUpsideDownThePanel();
+                _temp.TurnUpside();
             }else if (objectType == ObjectType.Door){//game will load active scene
                 var _temp = value.GetComponent<DoorOti>();
                 _temp.RestartGame();

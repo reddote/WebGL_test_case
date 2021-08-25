@@ -54,6 +54,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="HtmlHook.cs" t="Include" />
           <e p="InputHandler.cs" t="Include" />
           <e p="InteractablesObjects" t="Include">
             <e p="Interactables.cs" t="Include" />
@@ -65,11 +66,13 @@
               <e p="GrabOti.cs" t="Include" />
               <e p="LightOti.cs" t="Include" />
               <e p="PanelOti.cs" t="Include" />
+              <e p="Test.cs" t="Include" />
             </e>
             <e p="ObjectsToInteract.cs" t="Include" />
             <e p="Observer.cs" t="Include" />
             <e p="Spawner.cs" t="Include" />
           </e>
+          <e p="JavaScriptHook.cs" t="Include" />
           <e p="PlayerCommandPattern" t="Include">
             <e p="Command.cs" t="Include" />
             <e p="CommandCamera.cs" t="Include" />

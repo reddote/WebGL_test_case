@@ -42,6 +42,8 @@ namespace InteractablesObjects.InteractablesObject{
             }else if (doorStatus == CabinetDoorStatus.Close){
                 doorStatus = CabinetDoorStatus.Open;
             }
+            string _temp = "Cabinet: " + GetStatusOfDoor();
+            JavaScriptHook.current.ChangeCabinetTextSet(_temp);
         }
 
         private void MoveDoorByStatus(int direction){
