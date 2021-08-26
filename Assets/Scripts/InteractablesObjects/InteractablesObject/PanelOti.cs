@@ -9,21 +9,39 @@ namespace InteractablesObjects.InteractablesObject{
     public class PanelOti : ObjectsToInteract{
         [SerializeField] private Transform panelTransform;
         [SerializeField] private PanelDoorStatus panelDoorStatus;
+        private Vector3 firstLocation;
+        private Vector3 secondLocation;
 
         public void Start(){
             panelTransform = transform;
             panelDoorStatus = PanelDoorStatus.Straight;
+            firstLocation = new Vector3(
+                0,
+                90f,
+                0f);
+            secondLocation = new Vector3(
+                panelTransform.rotation.x,
+                90f,
+                180f);
+            
         }
         
         public void TurnUpside(){
-            var _rotation = panelTransform.rotation;
-            panelTransform.rotation = Quaternion.Euler(new Vector3(
-                _rotation.x,
-                90f,
-                180f));
-            panelDoorStatus = PanelDoorStatus.Opposite;
-            string _temp = "Words: " + panelDoorStatus.ToString();
-            JavaScriptHook.current.ChangePanelTextSet(_temp);
+            switch (panelDoorStatus){
+                case PanelDoorStatus.Straight:
+                    panelTransform.rotation = Quaternion.Euler(secondLocation);
+                    panelDoorStatus = PanelDoorStatus.Opposite;
+                    string _temp2 = "Words: " + panelDoorStatus.ToString();
+                    JavaScriptHook.current.ChangePanelTextSet(_temp2);
+                    break;
+                case PanelDoorStatus.Opposite:
+                    var _rotation = panelTransform.rotation;
+                    panelTransform.rotation = Quaternion.Euler(firstLocation);
+                    panelDoorStatus = PanelDoorStatus.Straight;
+                    string _temp1 = "Words: " + panelDoorStatus.ToString();
+                    JavaScriptHook.current.ChangePanelTextSet(_temp1);
+                    break;
+            }
         }
     }
 }

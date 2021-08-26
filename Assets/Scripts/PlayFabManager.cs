@@ -7,7 +7,7 @@ public class PlayFabManager : MonoBehaviour{
     public static PlayFabManager current;
     
     private Dictionary<string, float> leaderBoardList = new Dictionary<string, float>();
-    public List<string> stringTimeValue = new List<string>();
+    private List<string> stringTimeValue = new List<string>();
     public List<string> stringLeaderBoard = new List<string>();
     private int count = 1;
     public bool isGetLeader = false;
@@ -88,7 +88,10 @@ public class PlayFabManager : MonoBehaviour{
         int _count = 1;
         foreach (var _item in leaderBoardList){
             string _b = _count + "." + _item.Value;
+            //id is to long for passing values
+            //so we only change for time value on html 
             JavaScriptHook.current.ChangeHighScoreTextSet(_b, (_count));
+            //end
             stringTimeValue.Add(_b);
             string _a = (_count + " ID: " + _item.Key + " Time : " + _item.Value);
              stringLeaderBoard.Add(_a);
