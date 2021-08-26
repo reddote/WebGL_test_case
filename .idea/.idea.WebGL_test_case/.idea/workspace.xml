@@ -20,25 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a67da8-ab9f-4507-9961-5f9fba37fb7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HtmlHook.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/Test.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/JavaScriptHook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGL_test_case/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_sit_on_chair.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_sit_on_chair.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_standup_chair.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_act_standup_chair.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_emotion_laugh_on_chair.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_emotion_laugh_on_chair.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_talk_sit.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animations/Npc/male_talk_sit.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Morgue Room PBR/morgue scene/morgue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Morgue Room PBR/morgue scene/morgue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/BridgeConnection.jslib" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/BridgeConnection.jslib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/BinOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/BinOti.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CabinetOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CabinetOti.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/LightOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/LightOti.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JavaScriptHook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JavaScriptHook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayFabManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayFabManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +60,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Simple Account with Database/Scripts/AccountWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCommandPattern/CommandCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/BinOti.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/JavaScriptHook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/Interactables.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayFabManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HtmlHook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/PanelOti.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/LightOti.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CabinetOti.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/DoorOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/CharacterOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractablesObjects/InteractablesObject/BinOti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayFabManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JavaScriptHook.cs" />
       </list>
     </option>
   </component>
@@ -147,6 +133,8 @@
       <workItem from="1629882884368" duration="4921000" />
       <workItem from="1629895485188" duration="684000" />
       <workItem from="1629896454996" duration="17249000" />
+      <workItem from="1629991136285" duration="2895000" />
+      <workItem from="1629998906359" duration="2935000" />
     </task>
     <servers />
   </component>
